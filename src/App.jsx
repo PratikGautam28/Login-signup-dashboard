@@ -1,7 +1,7 @@
 import React from 'react'
 import Login from './Login'
 import { Route,Routes } from 'react-router-dom'
-import DashBoard from './DashBoard'
+import Dashboard from "./Dashboard";
 import Signup from './SignUp'
 
 
@@ -13,7 +13,7 @@ const App = () => {
       
      <Routes>
 <Route path='/' element={<Login/>}/>
-<Route path='/dashboard' element={<DashBoard/>}/>
+<Route path='/dashboard' element={<Dashboard/>}/>
   <Route path="/signup" element={<Signup />} />
 
      </Routes>
