@@ -2,7 +2,7 @@ import React from 'react'
 import Login from './Login'
 import { Route,Routes } from 'react-router-dom'
 import Dashboard from "./Dashboard";
-import Signup from './SignUp'
+import Signup from './Signup'
 
 
 
